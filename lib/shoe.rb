@@ -3,7 +3,6 @@ class Shoe
   attr_reader :brand
 
   BRANDS = []
-  BRANDS.uniq!
 
 
   def initialize(brand)
@@ -16,4 +15,5 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
 
+BRANDS.uniq!
 end
