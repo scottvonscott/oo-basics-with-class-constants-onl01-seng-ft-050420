@@ -11,7 +11,7 @@ class Shoe
     BRANDS << brand
     binding.pry
   end
-
+BRANDS = BRANDS.uniq!
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
